@@ -1,0 +1,16 @@
+== Original RestClient
+
+The original RestClient is written by Adam Wiggins.
+
+https://github.com/archiloque/rest-client
+
+This gem added a cert file to it and force SSL verification for those calls.
+
+# <code>RestClient.get</code>
+# <code>RestClient.post</code>
+# <code>RestClient.put</code>
+# <code>RestClient.delete</code>
+
+== Copyright
+
+Both the original RestClient and this gem are released under the MIT License: http://www.opensource.org/licenses/mit-license.php
