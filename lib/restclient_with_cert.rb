@@ -1,4 +1,5 @@
 require 'restclient'
+require 'openssl'
 
 module RestClient
   def self.ssl_settings
