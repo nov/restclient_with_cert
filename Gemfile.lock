@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    restclient_with_cert (0.0.8)
+      rest-client (>= 1.6)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bouncy-castle-java (1.5.0146.1)
+    diff-lcs (1.1.3)
+    jruby-openssl (0.7.4)
+      bouncy-castle-java
+    mime-types (1.16)
+    rake (0.9.2)
+    rcov (0.9.10)
+    rcov (0.9.10-java)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  jruby-openssl (>= 0.7)
+  rake (>= 0.8)
+  rcov (>= 0.9)
+  restclient_with_cert!
+  rspec (>= 2)
